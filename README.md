@@ -1,63 +1,63 @@
-# 🚀 Assignment: Mastering JavaScript Fundamentals
+🚀 JavaScript Fundamentals Assignment
 
-Welcome to your next step toward JavaScript mastery! In this assignment, you'll explore essential concepts that form the backbone of interactive, dynamic web pages—functions, loops, and the Document Object Model (DOM). Ready to code like a pro? Let’s dive in.
+This project demonstrates core JavaScript concepts including variables, conditionals, functions, loops, and DOM manipulation. It is structured into four main parts, each showcasing practical use cases for building interactive web pages.
 
----
+📂 Project Structure
+/javascript-fundamentals-assignment
+  ├── index.html   # Structured HTML content
+  ├── style.css    # Basic styling (optional)
+  └── script.js    # JavaScript code (logic + DOM)
 
-## 🎯 Part 1: Mastering JavaScript Basics
+🎯 Part 1: JavaScript Basics
 
-Start with the building blocks of JavaScript—variables, data types, operators, and conditionals. You’ll write a few simple programs that capture user input, make decisions using `if/else`, and output results using `console.log()` or by modifying the webpage content.
+Declared variables (userName, age)
 
-**Goal:** Demonstrate your understanding of how JavaScript flows, processes logic, and interacts with data.
+Used if/else conditionals to check age status
 
----
+Logged results using console.log()
 
-## ❤️ Part 2: JavaScript Functions — The Heart of Reusability
+Goal: Understand how JavaScript handles variables, logic, and output.
 
-Functions are your best friends in programming. Write a few custom functions that take inputs, process them, and return or display results. You’ll also create functions for common tasks (like calculating totals, formatting strings, or toggling content).
+❤️ Part 2: JavaScript Functions
 
-**Goal:** Build reusable blocks of logic that make your code cleaner, smarter, and DRY (Don't Repeat Yourself).
+calculateTotal(price, quantity) → calculates total cost of items.
 
----
+formatGreeting(name) → formats and returns a custom greeting string.
 
-## 🔁 Part 3: JavaScript Loops — Embrace the Power of Repetition!
+Goal: Learn reusability through custom functions (DRY principle).
 
-Use `for`, `while`, or `forEach` loops to solve repetitive tasks like iterating through arrays, generating dynamic content, or simulating simple countdowns or animations.
+🔁 Part 3: JavaScript Loops
 
-**Goal:** Practice controlling flow with repetition and iteration—key to working with lists, animations, and form elements.
+For loop → logs numbers 1–5.
 
----
+While loop → simple countdown from 3.
 
-## 🌐 Part 4: Mastering the DOM with JavaScript
+Goal: Practice iteration and repetition for dynamic tasks.
 
-It’s time to bring your page to life! Use JavaScript to select elements, respond to user actions, and dynamically update the content of your web page. Tasks may include changing text, toggling classes, listening to click events, or creating elements on the fly.
+🌐 Part 4: DOM Manipulation
 
-**Goal:** Show your skill in making a static HTML page interactive using pure JavaScript and DOM manipulation.
+Toggle Greeting → button toggles text content of a <p> element.
 
----
+Dynamic List → generates a fruit list (Apple, Banana, Cherry) dynamically.
 
-## Deliverables
+Countdown Timer → button triggers a countdown displayed on the page.
 
-* A single project folder containing:
+Goal: Demonstrate how JavaScript makes static HTML interactive.
 
-  * `index.html` — your structured HTML content
-  * `style.css` — (optional) if you'd like to style your content
-  * `script.js` — your JavaScript file including:
+🛠️ How to Run
 
-    * Variable declarations and conditionals (Part 1)
-    * At least 2 custom functions (Part 2)
-    * At least 2 loop examples (Part 3)
-    * At least 3 DOM interactions (Part 4)
+Download or clone this project folder.
 
-Each part of the assignment should be clearly commented and organized.
+Open index.html in your browser.
 
----
+Open Developer Console (F12) to view console logs from Part 1–3.
 
-## Outcome
+Interact with buttons to test DOM features.
 
-* Clear understanding of variables, conditionals, functions, loops, and DOM methods
-* Code readability and comments explaining your logic
-* Effective use of functions and loops to reduce repetition
-* DOM manipulation that improves interactivity
-* Clean structure and consistent indentation
+✅ Outcomes
 
+Clear understanding of variables, conditionals, functions, and loops.
+
+Hands-on practice with DOM manipulation for interactivity.
+
+Organized, readable, and well-commented JavaScript code.

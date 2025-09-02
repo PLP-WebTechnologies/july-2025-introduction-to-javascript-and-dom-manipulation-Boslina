@@ -1,0 +1,30 @@
+title{
+    color: orange;
+    font-family: georgia;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: navy;
+}
+
+button{
+    margin: 10px 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    background: powderblue;
+    color: navy;
+    border: none;
+}
+
+button:hover{
+    background: powderblue;
+}
+
+#countdown {
+    font-weight: bold;
+    color: navy;
+    margin-top: 10px;
+}
+
